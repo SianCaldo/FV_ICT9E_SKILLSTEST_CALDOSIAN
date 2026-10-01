@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 SKills Test</title>
+    <style>
+    body{
+    background-color: rgb(247, 239, 239);
+    }
+
+    
+    .form{
+    background: rgb(193, 190, 190);
+    width: 45%;
+    height: 1285px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0 3px 20px black;
+    }
+ 
+    .obmclogo{
+    height: 180px;
+    width: 190px;
+    display: block;
+    margin: auto;
+    }
+
+    p{
+    font-size: 17px;
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+    h1{
+    font-size: 24px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(19, 89, 168);  
+    }
+    
+    span{
+    font-size: 17px;
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+
+    
+
+    input[type="text"], select, textarea{
+    width: 500px;
+    height: 30px;
+    }
+   
+    input[type="checkbox"]{
+    width: 17px;
+    height: 17px;
+    }
+
+     input[type="radio"]{
+    width: 16px;
+    height: 15px;
+    }
+
+    ul{
+
+          font-size: 17px;
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     }
+         
+    span{
+        font-size: 17px;
+    text-align: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    }
+    
+    textarea{
+    height: 150px;
+    
+    }
+
+    input[type="submit"] {
+    width: 70%;
+    padding: 15px;
+    background-color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    margin: auto;
+    display: block;          
+    }
+   
+ 
+    
+    </style>
+</head>
+<body>
+    <div>
+        <div class="form">
+                <img src="https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/8b5611eb-ff3a-407f-9adc-e116a23373fc/OBMC+LOGO+2024-04.png"           alt="ombclogo" class="obmclogo">
+                <h1><u>OBMC Robotics Club Application Form</u></h1>
+            
+                <p>Welcome! Please fill out this form out this form if you're intrested in joining our school's newly introduced Robotics club.</p>
+                <br>
+                <form action="">
+                <span><label for="fullname"><u>Full Name</u></label></span>
+                 <br>
+                <input type="text" id="fullname" name="fullname" placeholder="Sian Caldo" required>
+                <br><br>
+                <span><label for="email"><u>Email</u></label></span>
+                <br>
+                <input type="text" id="emailaddress" name="email" placeholder="siancaldo268@gmail.com" required>
+                <br><br>
+                <span><label for="gradelevel"><u>Grade Level</u></label></span>
+                <br>
+                <input type="text" id="gradelevel" name="gradelevel" placeholder="9" required>
+                <br><br>
+                                
+                <span><label for="section"><u>Section</u></label></span>
+                <br>
+                <input type="radio" id="section" name="section"> <label for="section1">Emerald</label>
+                <br>
+                <input type="radio" id="section2" name="section"> <label for="section2">Ruby</label>
+                <br>
+                <input type="radio" id="section" name="section"> <label for="section3">Sapphire</label>
+                <br>
+                <input type="radio" id="section" name="section"> <label for="section4">Topaz</label>
+                <br>
+                <input type="radio" id="section" name="section"> <label for="section5">Jade</label>
+                <br><br>3
+
+                <span><label for="section"><u>Gender</u></label></span>
+                <br>
+                <input type="radio" id="gender" name="gender"> <label for="gender">Male</label>
+                <br>    
+                <input type="radio" id="gender" name="gender"> <label for="gender">Female</label>
+                <br><br>
+                               
+                <span><label for="skills"><u>What are your skills?</u></label></span>
+                <br>
+                <input type="checkbox" id="skills1" name="skills1"> <label for="skills1">Coding</label>
+                <input type="checkbox" id="skills1" name="skills1"> <label for="skills1">Designing</label>
+                <input type="checkbox" id="skills1" name="skills1"> <label for="skills1">Electronics</label>
+                <br><br>
+
+                <span><label for="skills"><u>State some reasons why you'd want to join</u></label></span>
+                <br>
+                            
+                <textarea type="textarea" id="review" placeholder="Here..." rows="4" cols="40"></textarea required>
+                <br>
+
+                <h1><u>Top Robotic Activities we offer:</u></h1>
+                <ul> 
+                <li>Line Following Robots</li>
+                <li>Obstacle Avoiding Programming</li>
+                <li>Light Following Robot</li>
+                </ul>
+
+                <h1><u>Recommended links for coding:</u></h1>
+
+                <ol>
+                <li><a href="https://www.codedex.io/" target="_blank"> <span>codedex.io</span></a></li>
+                <li><a href="https://www.sololearn.com/en/" target="_blank"> <span>sololearn.com</span></a></li>
+                </ol>
+
+                <input type="submit" id="submit"  value="Submit Application">      
+           </form>
+        </div>
+    </div>
+</body>
+</html>
+
